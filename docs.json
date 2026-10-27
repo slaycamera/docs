@@ -14,6 +14,11 @@
     "dark": "/logo/slay.svg",
     "href": "https://www.slaycamera.com/?utm_source=docs&utm_medium=logo"
   },
+  "seo": {
+    "metatags": {
+      "canonical": "https://www.slaycamera.com/docs"
+    }
+  },
   "appearance": {
     "default": "dark"
   },
