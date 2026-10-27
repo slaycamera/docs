@@ -2,6 +2,10 @@
 
 Source for the slay documentation site, built with [Mintlify](https://mintlify.com).
 
+Live at **https://www.slaycamera.com/docs**. The website proxies `/docs` to Mintlify
+(see `next.config.ts` in the website repo), so don't add Mintlify's DNS records:
+its CNAME would take over the whole domain.
+
 - `docs.json`: site config (theme, colours, navigation, links)
 - `index.mdx`: the LUTs overview
 - `luts/`: download and apply-in-code pages
