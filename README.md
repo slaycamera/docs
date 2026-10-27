@@ -1,0 +1,32 @@
+# slay docs
+
+Source for the slay documentation site, built with [Mintlify](https://mintlify.com).
+
+- `docs.json`: site config (theme, colours, navigation, links)
+- `index.mdx`: the LUTs overview
+- `luts/`: download and apply-in-code pages
+- `logo/`: logo and favicon
+
+## Preview locally
+
+```bash
+npm i -g mint
+mint dev
+```
+
+The site runs at `http://localhost:3000`.
+
+## Publishing
+
+Pushes to `main` deploy through the Mintlify GitHub app. Check links before pushing:
+
+```bash
+mint broken-links
+```
+
+## Code samples
+
+Every sample in `luts/apply-in-code.mdx` was run against the LUTs in
+[slaycamera/luts](https://github.com/slaycamera/luts) and agreed with ffmpeg's
+`lut3d` filter to within 1 level out of 255. If you change a sample, run it again
+before you publish.

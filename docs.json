@@ -1,0 +1,68 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "slay",
+  "description": "Docs for slay, the composition-guide camera for iPhone: free cinematic LUTs and how to apply them in code.",
+  "colors": {
+    "primary": "#19d0e8",
+    "light": "#19d0e8",
+    "dark": "#0e9fb3"
+  },
+  "favicon": "/logo/slay.svg",
+  "logo": {
+    "light": "/logo/slay.svg",
+    "dark": "/logo/slay.svg",
+    "href": "https://www.slaycamera.com/?utm_source=docs&utm_medium=logo"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "LUTs",
+        "pages": ["index", "luts/download", "luts/apply-in-code"]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "LUTs on GitHub",
+          "href": "https://github.com/slaycamera/luts",
+          "icon": "github"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://www.slaycamera.com/blog?utm_source=docs&utm_medium=anchor",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://www.slaycamera.com/?utm_source=docs&utm_medium=navbar"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get slay",
+      "href": "https://apps.apple.com/app/apple-store/id6807513456?pt=129393709&ct=docs&mt=8"
+    }
+  },
+  "contextual": {
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "cursor", "vscode"]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/slaycamera",
+      "instagram": "https://www.instagram.com/slay.camera/",
+      "website": "https://www.slaycamera.com/?utm_source=docs&utm_medium=footer",
+      "youtube": "https://www.youtube.com/@slaycamera",
+      "linkedin": "https://www.linkedin.com/company/slaycamera",
+      "github": "https://github.com/slaycamera"
+    }
+  }
+}

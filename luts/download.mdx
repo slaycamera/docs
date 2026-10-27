@@ -1,0 +1,52 @@
+---
+title: "Download the LUTs"
+description: "Get the slay .cube files from GitHub, one at a time or all at once, and credit slay when you publish."
+---
+
+The LUTs live in the public [`slaycamera/luts`](https://github.com/slaycamera/luts) repository on GitHub.
+
+## Get all five
+
+```bash
+git clone https://github.com/slaycamera/luts.git
+```
+
+The `.cube` files are in `luts/`. The `previews/` folder holds before-and-after images, and `tools/` holds the generator and validator.
+
+## Get one file
+
+Every LUT has a stable raw URL:
+
+```text
+https://raw.githubusercontent.com/slaycamera/luts/main/luts/<file>.cube
+```
+
+```bash
+curl -LO https://raw.githubusercontent.com/slaycamera/luts/main/luts/slay-04-film.cube
+```
+
+The raw URLs send `Access-Control-Allow-Origin: *`, so a web page can `fetch()` them directly. See [the browser sample](/luts/apply-in-code#in-the-browser).
+
+| Look | Raw URL |
+| --- | --- |
+| Amber | `https://raw.githubusercontent.com/slaycamera/luts/main/luts/slay-01-amber.cube` |
+| Fade | `https://raw.githubusercontent.com/slaycamera/luts/main/luts/slay-02-fade.cube` |
+| Neon | `https://raw.githubusercontent.com/slaycamera/luts/main/luts/slay-03-neon.cube` |
+| Film | `https://raw.githubusercontent.com/slaycamera/luts/main/luts/slay-04-film.cube` |
+| Portrait | `https://raw.githubusercontent.com/slaycamera/luts/main/luts/slay-05-portrait.cube` |
+
+<Tip>
+  For production, download the files once and serve them from your own storage or bundle them with your app. Don't fetch them from GitHub on every request.
+</Tip>
+
+## License and credit
+
+The LUTs are released under [CC BY 4.0](https://github.com/slaycamera/luts/blob/main/LICENSE). You can use, share and adapt them for any purpose, including client and commercial work, as long as you credit slay.
+
+When you publish work that uses them, add:
+
+```markdown
+LUTs: [slay](https://www.slaycamera.com) (CC BY 4.0)
+```
+
+If your app or service grades images with these LUTs, put the same credit somewhere your users can see it, such as an about screen or the filter picker. Don't sell the files as they are or present them as your own.
