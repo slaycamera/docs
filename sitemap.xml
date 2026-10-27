@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replaces Mintlify's generated sitemap, which lists the mintlify.dev host
+     instead of www.slaycamera.com/docs. Add every new page here. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.slaycamera.com/docs</loc>
+  </url>
+  <url>
+    <loc>https://www.slaycamera.com/docs/luts/download</loc>
+  </url>
+  <url>
+    <loc>https://www.slaycamera.com/docs/luts/apply-in-code</loc>
+  </url>
+</urlset>

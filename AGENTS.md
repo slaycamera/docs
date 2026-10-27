@@ -20,6 +20,11 @@
 - Bold for UI elements: Click **Settings**
 - Code formatting for file names, commands, paths, and code references
 
+## Hosting
+
+- The site is served at https://www.slaycamera.com/docs through a rewrite in the website's `next.config.ts`; never add Mintlify's DNS records
+- `sitemap.xml` is hand-written because Mintlify's generated one uses the mintlify.dev host. When you add a page, add its URL there too
+
 ## Code samples
 
 - Run every code sample before publishing it, and keep the published text identical to what you ran
