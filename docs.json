@@ -8,10 +8,10 @@
     "light": "#19d0e8",
     "dark": "#0e9fb3"
   },
-  "favicon": "/logo/slay.svg",
+  "favicon": "/favicon.png",
   "logo": {
-    "light": "/logo/slay.svg",
-    "dark": "/logo/slay.svg",
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png",
     "href": "https://www.slaycamera.com/?utm_source=docs&utm_medium=logo"
   },
   "seo": {

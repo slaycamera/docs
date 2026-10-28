@@ -9,7 +9,8 @@ its CNAME would take over the whole domain.
 - `docs.json`: site config (theme, colours, navigation, links)
 - `index.mdx`: the LUTs overview
 - `luts/`: download and apply-in-code pages
-- `logo/`: logo and favicon
+- `logo/`: navbar logo (light and dark), copied from the website's app icon and wordmark
+- `favicon.png`: the website's `public/icon-512.png`
 
 ## Preview locally
 
